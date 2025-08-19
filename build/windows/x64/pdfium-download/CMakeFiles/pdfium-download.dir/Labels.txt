@@ -1,0 +1,14 @@
+# Target labels
+ pdfium-download
+# Source files and their labels
+D:/app/snapservice/build/windows/x64/pdfium-download/CMakeFiles/pdfium-download
+D:/app/snapservice/build/windows/x64/pdfium-download/CMakeFiles/f9a59ed00aa856290fae4e4e5375ff7d/pdfium-download.rule
+D:/app/snapservice/build/windows/x64/pdfium-download/CMakeFiles/c8107254921135be11faacf422150f5b/pdfium-download-complete.rule
+D:/app/snapservice/build/windows/x64/pdfium-download/CMakeFiles/b19b54dd2df484acfa01b39aaff11794/pdfium-download-build.rule
+D:/app/snapservice/build/windows/x64/pdfium-download/CMakeFiles/b19b54dd2df484acfa01b39aaff11794/pdfium-download-configure.rule
+D:/app/snapservice/build/windows/x64/pdfium-download/CMakeFiles/b19b54dd2df484acfa01b39aaff11794/pdfium-download-download.rule
+D:/app/snapservice/build/windows/x64/pdfium-download/CMakeFiles/b19b54dd2df484acfa01b39aaff11794/pdfium-download-install.rule
+D:/app/snapservice/build/windows/x64/pdfium-download/CMakeFiles/b19b54dd2df484acfa01b39aaff11794/pdfium-download-mkdir.rule
+D:/app/snapservice/build/windows/x64/pdfium-download/CMakeFiles/b19b54dd2df484acfa01b39aaff11794/pdfium-download-patch.rule
+D:/app/snapservice/build/windows/x64/pdfium-download/CMakeFiles/b19b54dd2df484acfa01b39aaff11794/pdfium-download-test.rule
+D:/app/snapservice/build/windows/x64/pdfium-download/CMakeFiles/b19b54dd2df484acfa01b39aaff11794/pdfium-download-update.rule

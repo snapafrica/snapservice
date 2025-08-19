@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\app\snapservice\build\windows\x64\CMakeFiles\eddd58887dadcff65f01985a6f39be1f\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{335DCDAC-65B9-347F-98F2-9C8420736E6F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\app\snapservice\build\windows\x64\pdfium-download\CMakeFiles\b19b54dd2df484acfa01b39aaff11794\pdfium-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\app\snapservice\build\windows\x64\pdfium-download\CMakeFiles\b19b54dd2df484acfa01b39aaff11794\pdfium-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\app\snapservice\build\windows\x64\pdfium-download\CMakeFiles\b19b54dd2df484acfa01b39aaff11794\pdfium-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\app\snapservice\build\windows\x64\pdfium-download\CMakeFiles\b19b54dd2df484acfa01b39aaff11794\pdfium-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\app\snapservice\build\windows\x64\pdfium-download\CMakeFiles\b19b54dd2df484acfa01b39aaff11794\pdfium-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\app\snapservice\build\windows\x64\pdfium-download\CMakeFiles\b19b54dd2df484acfa01b39aaff11794\pdfium-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\app\snapservice\build\windows\x64\pdfium-download\CMakeFiles\b19b54dd2df484acfa01b39aaff11794\pdfium-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\app\snapservice\build\windows\x64\pdfium-download\CMakeFiles\b19b54dd2df484acfa01b39aaff11794\pdfium-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\app\snapservice\build\windows\x64\pdfium-download\CMakeFiles\c8107254921135be11faacf422150f5b\pdfium-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\app\snapservice\build\windows\x64\pdfium-download\CMakeFiles\f9a59ed00aa856290fae4e4e5375ff7d\pdfium-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\app\snapservice\build\windows\x64\pdfium-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\app\snapservice\build\windows\x64\pdfium-download\CMakeFiles\pdfium-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{368FDD4F-86A3-355F-9A11-380ED3AABDB2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

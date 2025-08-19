@@ -1,0 +1,5 @@
+D:\app\snapservice\windows\runner\flutter_window.cpp;D:\app\snapservice\build\windows\x64\runner\snapservice.dir\Release\flutter_window.obj
+D:\app\snapservice\windows\runner\main.cpp;D:\app\snapservice\build\windows\x64\runner\snapservice.dir\Release\main.obj
+D:\app\snapservice\windows\runner\utils.cpp;D:\app\snapservice\build\windows\x64\runner\snapservice.dir\Release\utils.obj
+D:\app\snapservice\windows\runner\win32_window.cpp;D:\app\snapservice\build\windows\x64\runner\snapservice.dir\Release\win32_window.obj
+D:\app\snapservice\windows\flutter\generated_plugin_registrant.cc;D:\app\snapservice\build\windows\x64\runner\snapservice.dir\Release\generated_plugin_registrant.obj
