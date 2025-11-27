@@ -204,17 +204,16 @@ class _SigninPageState extends ConsumerState<SigninPage> {
           ],
         ),
         child: Center(
-          child:
-              isLoading
-                  ? const CircularProgressIndicator(color: Colors.white)
-                  : const Text(
-                    'Sign In',
-                    style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
-                    ),
+          child: isLoading
+              ? const CircularProgressIndicator(color: Colors.white)
+              : const Text(
+                  'Sign In',
+                  style: TextStyle(
+                    fontSize: 20,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white,
                   ),
+                ),
         ),
       ),
     );
@@ -251,7 +250,9 @@ class _SigninPageState extends ConsumerState<SigninPage> {
         .then((_) => setState(() => isLoading = false))
         .onError((error, stackTrace) {
           setState(() => isLoading = false);
-          context.pop();
+          if (GoRouter.of(context).canPop()) {
+            context.pop();
+          }
 
           String errorMessage = "Unable to login. Please try again.";
           if (error is UnauthorisedException) {
@@ -259,12 +260,16 @@ class _SigninPageState extends ConsumerState<SigninPage> {
           } else if (error is FetchDataException) {
             errorMessage = error.toString();
           }
-
-          Fluttertoast.showToast(
-            msg: errorMessage,
-            gravity: ToastGravity.BOTTOM,
-            backgroundColor: Colors.red,
-            textColor: Colors.white,
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text(errorMessage),
+              backgroundColor: Colors.red,
+              behavior: SnackBarBehavior.floating,
+              margin: const EdgeInsets.all(16),
+              duration: const Duration(
+                seconds: 3,
+              ), 
+            ),
           );
         });
   }

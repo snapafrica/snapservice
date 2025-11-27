@@ -6,7 +6,6 @@ import 'package:http/http.dart' as http;
 
 class ApiProvider {
   final String _baseUrl = 'https://api.snapafrica.net/snap_services';
-  // final String _baseUrl = 'https://uzaservice.com/servicebook';
 
   Uri uri(String url) {
     return Uri.parse(_baseUrl + url);

@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-      Build started 8/19/2025 6:02:24 PM.
+      Build started 11/27/2025 4:48:49 PM.
       
       Project "D:\\app\\snapservice\\build\\windows\\x64\\CMakeFiles\\3.30.5-msvc23\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.11
+      Time Elapsed 00:00:00.85
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -72,8 +72,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/app/snapservice/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-z4sba9"
-      binary: "D:/app/snapservice/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-z4sba9"
+      source: "D:/app/snapservice/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-1n2qzp"
+      binary: "D:/app/snapservice/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-1n2qzp"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -83,40 +83,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/app/snapservice/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-z4sba9'
+        Change Dir: 'D:/app/snapservice/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-1n2qzp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0232e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d435e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.19+0d9f5a35a for .NET Framework
-        Build started 8/19/2025 6:02:26 PM.
+        Build started 11/27/2025 4:48:51 PM.
         
-        Project "D:\\app\\snapservice\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-z4sba9\\cmTC_0232e.vcxproj" on node 1 (default targets).
+        Project "D:\\app\\snapservice\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-1n2qzp\\cmTC_d435e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_0232e.dir\\Debug\\".
+          Creating directory "cmTC_d435e.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\app\\snapservice\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-z4sba9\\Debug\\".
-          Creating directory "cmTC_0232e.dir\\Debug\\cmTC_0232e.tlog\\".
+          Creating directory "D:\\app\\snapservice\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-1n2qzp\\Debug\\".
+          Creating directory "cmTC_d435e.dir\\Debug\\cmTC_d435e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_0232e.dir\\Debug\\cmTC_0232e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_0232e.dir\\Debug\\cmTC_0232e.tlog\\unsuccessfulbuild".
+          Creating "cmTC_d435e.dir\\Debug\\cmTC_d435e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d435e.dir\\Debug\\cmTC_d435e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0232e.dir\\Debug\\\\" /Fd"cmTC_0232e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d435e.dir\\Debug\\\\" /Fd"cmTC_d435e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34809 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0232e.dir\\Debug\\\\" /Fd"cmTC_0232e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d435e.dir\\Debug\\\\" /Fd"cmTC_d435e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\app\\snapservice\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-z4sba9\\Debug\\cmTC_0232e.exe" /INCREMENTAL /ILK:"cmTC_0232e.dir\\Debug\\cmTC_0232e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/app/snapservice/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-z4sba9/Debug/cmTC_0232e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/app/snapservice/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-z4sba9/Debug/cmTC_0232e.lib" /MACHINE:X64  /machine:x64 cmTC_0232e.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_0232e.vcxproj -> D:\\app\\snapservice\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-z4sba9\\Debug\\cmTC_0232e.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\app\\snapservice\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-1n2qzp\\Debug\\cmTC_d435e.exe" /INCREMENTAL /ILK:"cmTC_d435e.dir\\Debug\\cmTC_d435e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/app/snapservice/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-1n2qzp/Debug/cmTC_d435e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/app/snapservice/build/windows/x64/CMakeFiles/CMakeScratch/TryCompile-1n2qzp/Debug/cmTC_d435e.lib" /MACHINE:X64  /machine:x64 cmTC_d435e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_d435e.vcxproj -> D:\\app\\snapservice\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-1n2qzp\\Debug\\cmTC_d435e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_0232e.dir\\Debug\\cmTC_0232e.tlog\\unsuccessfulbuild".
-          Touching "cmTC_0232e.dir\\Debug\\cmTC_0232e.tlog\\cmTC_0232e.lastbuildstate".
-        Done Building Project "D:\\app\\snapservice\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-z4sba9\\cmTC_0232e.vcxproj" (default targets).
+          Deleting file "cmTC_d435e.dir\\Debug\\cmTC_d435e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d435e.dir\\Debug\\cmTC_d435e.tlog\\cmTC_d435e.lastbuildstate".
+        Done Building Project "D:\\app\\snapservice\\build\\windows\\x64\\CMakeFiles\\CMakeScratch\\TryCompile-1n2qzp\\cmTC_d435e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.61
+        Time Elapsed 00:00:00.64
         
       exitCode: 0
   -

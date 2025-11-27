@@ -5,7 +5,6 @@ D:/app/snapservice/build/windows/x64/runner/Release/pdfium.dll
 D:/app/snapservice/build/windows/x64/runner/Release/screen_retriever_windows_plugin.dll
 D:/app/snapservice/build/windows/x64/runner/Release/window_manager_plugin.dll
 D:/app/snapservice/build/windows/x64/runner/Release/data/flutter_assets/AssetManifest.bin
-D:/app/snapservice/build/windows/x64/runner/Release/data/flutter_assets/AssetManifest.json
 D:/app/snapservice/build/windows/x64/runner/Release/data/flutter_assets/assets/icons/gel.png
 D:/app/snapservice/build/windows/x64/runner/Release/data/flutter_assets/assets/icons/gumgel.png
 D:/app/snapservice/build/windows/x64/runner/Release/data/flutter_assets/assets/icons/pedigel.jpg
@@ -24,4 +23,5 @@ D:/app/snapservice/build/windows/x64/runner/Release/data/flutter_assets/packages
 D:/app/snapservice/build/windows/x64/runner/Release/data/flutter_assets/packages/flutter_bluetooth_printer/fonts/JetBrainsMono-ExtraBold.ttf
 D:/app/snapservice/build/windows/x64/runner/Release/data/flutter_assets/packages/flutter_bluetooth_printer/fonts/JetBrainsMono-Regular.ttf
 D:/app/snapservice/build/windows/x64/runner/Release/data/flutter_assets/shaders/ink_sparkle.frag
+D:/app/snapservice/build/windows/x64/runner/Release/data/flutter_assets/shaders/stretch_effect.frag
 D:/app/snapservice/build/windows/x64/runner/Release/data/app.so
